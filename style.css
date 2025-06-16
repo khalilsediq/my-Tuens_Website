@@ -12,7 +12,7 @@
    --white: #ffffff;
    --black: #000000;
    --red: #ff0000;
-   --blue: #ff0000;
+   --blue: #281154;
 }
 @font-face {
     font-family: 'Josefin Sans';
@@ -32,6 +32,9 @@
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
+}
+body{
+    background-color: var(--purple);
 }
 .main-header{
     background-color: var(--purple);
@@ -80,4 +83,12 @@ html{
     margin: 0px 50px 0px 0px;
     /* padding: 20px; */
     font-weight: 350;
+}
+.upper-content{
+    background-image: url('./imgs/hero_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    color: var(--white);
+    height: calc(100vh - 199px);
 }
