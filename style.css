@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+   --purple: #270082;
+   --white: #ffffff;
+   --black: #000000;
+   --red: #ff0000;
+   --blue: #ff0000;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('./style/Fonts/static/JosefinSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'Roboto Serif';
+    src: url('./style/Fonts/static/RobotoSerif-Regular.ttf');
+}
+
+.roboto-serif-<uniquifier> {
+  font-family: "Roboto Serif", serif;
+  
+  font-style: normal;
+ 
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+.main-header{
+    background-color: var(--purple);
+    color: var(--white);
+    font-family: 'Josefin Sans', sans-serif;
+    /* padding: 0.9vw 3vw; */
+    /* display: flex;
+    justify-content: space-around;
+    position: relative; */
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+}
+.logo{
+    padding: 15px;
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--white);
+
+}
+.logo h1{
+    color: var(--white);
+    font-family: 'Roboto Serif';
+    /* font-weight: 600; */
+    font-size: 4rem;
+    margin: 0px 0px 0px 80px;
+
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    padding: 1vw;
+    gap: 2.1vw;
+}
+.navigation p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.3rem;
+    margin: 0px 50px 0px 0px;
+    /* padding: 20px; */
+    font-weight: 350;
+}
