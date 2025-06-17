@@ -272,13 +272,64 @@ body {
 }
 .parent-text{
     background-color: var(--blue);
+    padding: 0px 0px 50rem;
     color: var(--white);
     display: flex;
     flex-direction: column;
 flex-wrap: wrap;
     align-items: center;
-
+text-align: center;
 }
 .parent-text h2{
-    
+    color: var(--white);
+    font-size: 8rem;
+    padding: 100px 0px 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 350;
+}
+.parent-text h3{
+    color: var(--white);
+    font-family: 'Roboto Serif';
+    font-weight: 500;
+    font-size: 3rem;
+    padding: 20px;
+}
+.parent-text p{
+    color: var(--white);
+    padding: 30px 30px 80px;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Roboto Serif';
+}
+.parent-text button{
+    font-size: 2.5rem;
+    font-family: 'josefin sans', sans-serif;
+    background: linear-gradient(rgba(131, 44, 44, 0.438) , rgb(220, 20, 60));
+    color: var(--white);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.parent-text button:hover{
+    transform: scale(1.2);
+    background: linear-gradient(black, rgba(128, 128, 128, 0.829));
+}
+.parent-text h6{
+    font-size: 2rem;
+    padding: 50px;
+    font-family: 'josefin sans', sans-serif;
+    color: var(--white);
+    font-weight: 200;
+}
+.ipad-sec>center>img{
+    padding: 10rem 0rem 80rem;
+}
+.ipad-sec{
+    background-color: var(--white);
+}
+.img-ipad{
+    position: relative;
+    bottom: 40rem;
 }
