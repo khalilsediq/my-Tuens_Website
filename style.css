@@ -389,7 +389,28 @@ body {
     font-family: 'josefin sans', sans-serif;
     font-weight: 500;
     font-style: normal;
-
+}
+.white-box p{
+    font-size: 3rem;
+    font-family: 'josefin sans', sans-serif;
+    padding: 50px;
+    font-weight: 200;
+}
+.read-btn{
+     font-size: 2rem;
+     font-family: 'josefin sans', sans-serif;
+     cursor: pointer;
+     border: none;
+     border-radius: 10px;
+     background: linear-gradient(var(--purple, --blue));
+     padding: 10px 15px;
+     color: var(--white);
+     font-weight: 200;
+}
+.read-btn:hover{
+    transform: scale(1.1);
+    background: linear-gradient(var(--blue, --purple));
+    color: var(--white);
 }
 @media (max-width: 650px)
 {
@@ -416,8 +437,20 @@ body {
     }
     .white-box>center>img{
         padding: 4rem 0rem 3.2rem;
-        width: 240px;
+       width: 340px;
         position: relative;
         bottom: 15rem;
     }
+    .white-box>h3{
+        font-size: 1.6rem;
+    }
+    .white-box p{
+        font-size: 1.2rem;
+        padding: 20px;
+    }
+    .read-btn{
+        font-size: 0.8rem;
+        padding: 4px;
+    }
 }
+@media (max-width: )
