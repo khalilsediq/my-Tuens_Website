@@ -370,10 +370,54 @@ body {
 
 .white-box {
     position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .white-box>center>img {
     padding: 10rem 0rem 8rem;
     position: relative;
-    bottom: 30rem;
+    bottom: 25rem;
+    
+}
+.white-box>h3{
+    font-size: 4rem;
+    margin: -100px 0px 0px;
+    font-family: 'josefin sans', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+@media (max-width: 650px)
+{
+    .parent-text h2{
+        font-size: 3.2rem;
+        padding: 4rem 0rem 0rem;
+    }
+    .parent-text>h3{
+        font-size: 1.2rem;
+        padding: 8px;
+
+    }
+    .parent-text p{
+        font-size: 0.8rem;
+        padding: 12px 3rem 32px;
+    }
+    .trail-btn{
+        font-size: 1rem;
+        padding: 6px;
+    }
+    .parent-text h6{
+        font-size: 0.8rem;
+        padding: 2rem;
+    }
+    .white-box>center>img{
+        padding: 4rem 0rem 3.2rem;
+        width: 240px;
+        position: relative;
+        bottom: 15rem;
+    }
 }
