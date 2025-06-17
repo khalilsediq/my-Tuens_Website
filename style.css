@@ -2,65 +2,73 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root{
-   --purple: #270082;
-   --white: #ffffff;
-   --black: #000000;
-   --red: #ff0000;
-   --blue: #281154;
+
+:root {
+    --purple: #270082;
+    --white: #ffffff;
+    --black: #000000;
+    --red: #ff0000;
+    --blue: #281154;
 }
+
 @font-face {
     font-family: 'Josefin Sans';
     src: url('./style/Fonts/static/JosefinSans-Regular.ttf');
 }
+
 @font-face {
     font-family: 'Roboto Serif';
     src: url('./style/Fonts/static/RobotoSerif-Regular.ttf');
 }
 
 .roboto-serif-<uniquifier> {
-  font-family: "Roboto Serif", serif;
-  
-  font-style: normal;
- 
+    font-family: "Roboto Serif", serif;
+
+    font-style: normal;
+
 }
-html{
+
+html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
-body{
-    background-color: var(--purple);
+
+body {
+    /* background-color: var(--purple); */
 }
-.main-header{
+
+.main-header {
     background-color: var(--purple);
     color: var(--white);
     font-family: 'Josefin Sans', sans-serif;
-    /* padding: 0.9vw 3vw; */
-    /* display: flex;
-    justify-content: space-around;
-    position: relative; */
+    position: relative;
+
 
 }
-.navbar{
+
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1rem;
+    /* flex-wrap: wrap; */
 }
-.logo{
+
+.logo {
     padding: 15px;
     font-size: 2rem;
     font-family: 'Josefin Sans', sans-serif;
     color: var(--white);
 
 }
-.logo h1{
+
+.logo h1 {
     color: var(--white);
     font-family: 'Roboto Serif';
     /* font-weight: 600; */
@@ -68,7 +76,8 @@ body{
     margin: 0px 0px 0px 80px;
 
 }
-.navigation{
+
+.navigation {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,18 +86,45 @@ body{
     padding: 1vw;
     gap: 2.1vw;
 }
-.navigation p{
+.icon-btn{
+    display: none;
+}
+.navigation p {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2.3rem;
     margin: 0px 50px 0px 0px;
     /* padding: 20px; */
     font-weight: 350;
 }
-.upper-content{
+@media (max-width: 650px) {
+    .navigation p {
+        display: none;
+    }
+    .icon-btn {
+        display: block;
+        font-size: 2.5rem;
+        color: var(--white);
+        cursor: pointer;
+        margin-right: 20px;
+    }
+    .logo h1{
+        font-size: 2.1rem;
+        margin: 0px 0px 0px 10px;
+    }
+}
+@media (max-width: 1024px) {
+   .navigation p {
+        font-size: 2.2rem;
+   }
+   .logo h1{
+    margin: 0px 0px 0px 10px;
+   }
+}
+/* .upper-content {
     background-image: url('./imgs/hero_image.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
     color: var(--white);
     height: calc(100vh - 199px);
-}
+} */
