@@ -86,9 +86,11 @@ body {
     padding: 1vw;
     gap: 2.1vw;
 }
-.icon-btn{
+
+.icon-btn {
     display: none;
 }
+
 .navigation p {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2.3rem;
@@ -96,11 +98,13 @@ body {
     /* padding: 20px; */
     font-weight: 350;
 }
+
 @media (max-width: 650px) {
     .navigation p {
         display: none;
-        
+
     }
+
     .icon-btn {
         display: block;
         font-size: 2.2rem;
@@ -109,57 +113,69 @@ body {
         margin-right: 20px;
         /* transition-duration: 0.9s; */
     }
-    .logo h1{
+
+    .logo h1 {
         font-size: 2.2rem;
         margin: 0px 0px 0px 10px;
-        
+
     }
-    .logo{
+
+    .logo {
         margin: 0px 0px 0px 44.8px;
         padding: 8.4px;
     }
+   
 }
+
 @media (max-width: 1024px) {
-   .navigation p {
+    .navigation p {
         font-size: 2.2rem;
-   }
-     .logo{
+    }
+
+    .logo {
         padding: 12px;
         font-size: 1.6rem;
 
     }
-    .logo h1{
+
+    .logo h1 {
         font-size: 3.2rem;
         margin: 0px 0px 0px 64px;
     }
-    .navigation{
+
+    .navigation {
         font-size: 1.6rem;
         padding: 8px;
     }
-    .navigation p{
+
+    .navigation p {
         font-size: 1.8rem;
         /* padding: 16px; */
     }
-    .upper-content h1{
+
+    .upper-content h1 {
         font-size: 10.2rem;
         padding: 280px 0px 0px;
 
     }
-    .upper-content h3{
+
+    .upper-content h3 {
         font-size: 4rem;
         padding: 40px;
 
     }
-    .upper-content p{
+
+    .upper-content p {
         font-size: 2.4rem;
         padding: 24px 24px 240px;
     }
 }
 
-.main{
+.main {
     position: relative;
-    
+
 }
+
 .upper-content {
     background-image: url('./imgs/hero_image.png');
     background-repeat: no-repeat;
@@ -168,143 +184,165 @@ body {
     color: var(--white);
     /* height: calc(100vh - 199px); */
     text-align: center;
-    
+
 }
-.upper-content h1{
+
+.upper-content h1 {
     color: var(--white);
     font-size: 15rem;
     padding: 13.67vw 0vw 0vw;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
 }
-.upper-content h3{
+
+.upper-content h3 {
     color: var(--white);
     padding: 1.95vw;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 5rem;
 }
-.upper-content p{
+
+.upper-content p {
     color: var(--white);
     font-size: 3rem;
     padding: 1.17vw 1.17vw 11.72vw;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
 }
-@media (max-width: 742px){
-    
-    .upper-content h1{
+
+@media (max-width: 742px) {
+
+    .upper-content h1 {
         font-size: 8.4rem;
         padding: 196px 0px 0px;
     }
+
     .upper-content h3 {
         font-size: 2.8rem;
         padding: 28px;
     }
-    .upper-content p{
+
+    .upper-content p {
         font-size: 1.6rem;
         padding: 16.8px 16.8px 168px;
     }
 }
-@media (max-width: 430px)
-{
-    .upper-content h1{
+
+@media (max-width: 430px) {
+    .upper-content h1 {
         font-size: 6rem;
         padding: 140px 0px 0px;
 
     }
-    .upper-content h3{
+
+    .upper-content h3 {
         font-size: 2rem;
         padding: 20px;
         font-weight: 600;
     }
-    .upper-content p{
+
+    .upper-content p {
         font-size: 1.2rem;
         padding: 12px 12px 120px;
     }
-    .logo{
+
+    .logo {
         margin: 0px 0px 0px -10px;
         padding: 6px;
     }
-    .logo h1{
+
+    .logo h1 {
         font-size: 1.6rem;
     }
-    .icon-btn i{
+
+    .icon-btn i {
         font-size: 1.6rem;
     }
 }
-@media (max-width: 375px)
-{
-    .logo{
+
+@media (max-width: 375px) {
+    .logo {
         font-size: 6.4rem;
         padding: 4.8px;
-        
+
     }
-    .logo h1{
+
+    .logo h1 {
         margin: 0px 0px 0px 7.6px;
         font-size: 1.2rem;
 
     }
-    .icon-btn i{
+
+    .icon-btn i {
         font-size: 1.2rem;
         font-weight: 600;
     }
-    .upper-content h1{
+
+    .upper-content h1 {
         font-size: 4.8rem;
         padding: 112px 0px 0px;
-        
+
     }
-    .upper-content h3{
+
+    .upper-content h3 {
         font-size: 1.6rem;
         padding: 16px;
     }
-    .upper-content p{
-      font-size: 0.9rem;
-      padding: 9.6px 9.6px 96px;
-      
+
+    .upper-content p {
+        font-size: 0.9rem;
+        padding: 9.6px 9.6px 96px;
+
     }
 }
 
 
 
-.text-para-sec{
+.text-para-sec {
     position: relative;
 }
-.parent-text{
+
+.parent-text {
     background-color: var(--blue);
-    padding: 0px 0px 50rem;
+    padding: 0px 0px 20rem;
     color: var(--white);
     display: flex;
     flex-direction: column;
-flex-wrap: wrap;
+    flex-wrap: wrap;
     align-items: center;
-text-align: center;
+    text-align: center;
+
 }
-.parent-text h2{
+
+.parent-text h2 {
     color: var(--white);
     font-size: 8rem;
     padding: 100px 0px 0px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 350;
 }
-.parent-text h3{
+
+.parent-text h3 {
     color: var(--white);
     font-family: 'Roboto Serif';
     font-weight: 500;
     font-size: 3rem;
     padding: 20px;
 }
-.parent-text p{
+
+.parent-text p {
     color: var(--white);
     padding: 30px 30px 80px;
     font-size: 2rem;
     text-align: center;
     font-family: 'Roboto Serif';
 }
-.parent-text button{
+
+.trail-btn {
     font-size: 2.5rem;
     font-family: 'josefin sans', sans-serif;
-    background: linear-gradient(rgba(131, 44, 44, 0.438) , rgb(220, 20, 60));
+    background: linear-gradient(rgba(131, 44, 44, 0.438), rgb(220, 20, 60));
     color: var(--white);
     padding: 15px;
     border: none;
@@ -312,24 +350,30 @@ text-align: center;
     cursor: pointer;
     transition-duration: 0.5s;
 }
-.parent-text button:hover{
+
+.trail-btn:hover {
     transform: scale(1.2);
     background: linear-gradient(black, rgba(128, 128, 128, 0.829));
 }
-.parent-text h6{
+
+.parent-text h6 {
     font-size: 2rem;
     padding: 50px;
     font-family: 'josefin sans', sans-serif;
     color: var(--white);
     font-weight: 200;
 }
-.ipad-sec>center>img{
-    padding: 10rem 0rem 80rem;
-}
-.ipad-sec{
+
+.white-box {
     background-color: var(--white);
 }
-.img-ipad{
+
+.white-box {
     position: relative;
-    bottom: 40rem;
+}
+
+.white-box>center>img {
+    padding: 10rem 0rem 8rem;
+    position: relative;
+    bottom: 30rem;
 }
