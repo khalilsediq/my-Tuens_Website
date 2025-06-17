@@ -99,6 +99,7 @@ body {
 @media (max-width: 650px) {
     .navigation p {
         display: none;
+        
     }
     .icon-btn {
         display: block;
@@ -106,9 +107,10 @@ body {
         color: var(--white);
         cursor: pointer;
         margin-right: 20px;
+        /* transition-duration: 0.9s; */
     }
     .logo h1{
-        font-size: 2.1rem;
+        font-size: 2.7rem;
         margin: 0px 0px 0px 10px;
     }
 }
