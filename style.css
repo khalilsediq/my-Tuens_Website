@@ -124,7 +124,7 @@ body {
         margin: 0px 0px 0px 44.8px;
         padding: 8.4px;
     }
-   
+
 }
 
 @media (max-width: 1024px) {
@@ -381,188 +381,315 @@ body {
     padding: 10rem 0rem 8rem;
     position: relative;
     bottom: 25rem;
-    
+
 }
-.white-box>h3{
+
+.white-box>h3 {
     font-size: 4rem;
     margin: -100px 0px 0px;
     font-family: 'josefin sans', sans-serif;
     font-weight: 500;
     font-style: normal;
 }
-.white-box p{
+
+.white-box p {
     font-size: 3rem;
     font-family: 'josefin sans', sans-serif;
     padding: 50px;
     font-weight: 200;
 }
-.read-btn{
-     font-size: 2rem;
-     font-family: 'josefin sans', sans-serif;
-     cursor: pointer;
-     border: none;
-     border-radius: 10px;
-     background: linear-gradient(var(--purple, --blue));
-     padding: 10px 15px;
-     color: var(--white);
-     font-weight: 200;
-     margin-bottom: 200px;
+
+.read-btn {
+    font-size: 2rem;
+    font-family: 'josefin sans', sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(var(--purple, --blue));
+    padding: 10px 15px;
+    color: var(--white);
+    font-weight: 200;
+    margin-bottom: 200px;
 }
-.read-btn:hover{
+
+.read-btn:hover {
     transform: scale(1.1);
     background: linear-gradient(var(--blue, --purple));
     color: var(--white);
 }
-.mac-pic-sec{
+
+.mac-pic-sec {
     padding-top: 40px;
     margin-bottom: 0px;
 }
-.mac-pic-sec img{
+
+.mac-pic-sec img {
     width: 640px;
 }
-@media (max-width: 650px)
-{
-    .parent-text h2{
+
+@media (max-width: 650px) {
+    .parent-text h2 {
         font-size: 3.2rem;
         padding: 4rem 0rem 0rem;
     }
-    .parent-text>h3{
+
+    .parent-text>h3 {
         font-size: 1.2rem;
         padding: 8px;
 
     }
-    .parent-text p{
+
+    .parent-text p {
         font-size: 0.8rem;
         padding: 12px 3rem 32px;
     }
-    .trail-btn{
+
+    .trail-btn {
         font-size: 1rem;
         padding: 6px;
     }
-    .parent-text h6{
+
+    .parent-text h6 {
         font-size: 0.8rem;
         padding: 2rem;
     }
-    .white-box>center>img{
+
+    .white-box>center>img {
         padding: 4rem 0rem 3.2rem;
-       width: 340px;
+        width: 340px;
         position: relative;
         bottom: 15rem;
     }
-    .white-box>h3{
+
+    .white-box>h3 {
         font-size: 1.6rem;
     }
-    .white-box p{
+
+    .white-box p {
         font-size: 1.2rem;
         padding: 20px;
     }
-    .read-btn{
+
+    .read-btn {
         font-size: 0.8rem;
         padding: 4px;
     }
-    .mac-pic-sec img{
+
+    .mac-pic-sec img {
         width: 240px;
         padding: 0px 0px 0px;
     }
-    
+
 }
-@media (max-width: 375px )
-{
-    .parent-text h2{
+
+@media (max-width: 375px) {
+    .parent-text h2 {
         font-size: 2.5rem;
         padding: 32px 0px 0px;
     }
-    .parent-text h3{
+
+    .parent-text h3 {
         font-size: 0.9rem;
         padding: 6.4px;
 
     }
-    .parent-text p{
+
+    .parent-text p {
         font-size: 0.6rem;
         padding: 9.6px 9.6px 25.6px;
     }
-    .trail-btn{
+
+    .trail-btn {
         font-size: 0.8rem;
         padding: 4.8px;
     }
-    .parent-text h6{
+
+    .parent-text h6 {
         font-size: 0.6rem;
         padding: 16px;
     }
-    .white-box>center>img{
+
+    .white-box>center>img {
         padding: 32px 0px 25.6px;
         width: 192px;
         bottom: 13rem;
     }
-    .white-box h3{
+
+    .white-box h3 {
         font-size: 1.2rem;
         margin: -96px 0px 0px;
 
     }
-    .white-box p{
+
+    .white-box p {
         font-size: 0.9rem;
         padding: 16px;
     }
-    .read-btn{
+
+    .read-btn {
         font-size: 0.6rem;
         padding: 3.2px;
         margin-bottom: 200px;
     }
-    .mac-pic-sec img{
+
+    .mac-pic-sec img {
         width: 192px;
         padding: 32px 0px 25.6px;
     }
-    
+
 }
 
 
-.third-last{
+.third-last {
     background-image: url('/imgs/video.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--white);
-    position: relative; 
+    position: relative;
     overflow: hidden;
     margin-top: -250px;
 }
-.third-parent h3{
+
+.third-parent h3 {
     font-size: 3.2rem;
     font-family: 'Josefin Sans', sans-serif;
     padding: 240px 0px 0px;
     text-align: center;
 }
-.third-parent p{
+
+.third-parent p {
     font-size: 2.4rem;
     font-family: 'Josefin Sans', sans-serif;
     padding: 24px 0px 200px;
     color: var(--white);
     text-align: center;
 }
-@media (max-width: 650px)
-{
-    .third-last{
+
+@media (max-width: 650px) {
+    .third-last {
         margin-top: -120px;
+        text-align: center;
     }
-    .third-parent h3{
+
+    .third-parent h3 {
         font-size: 1.6rem;
         padding: 120px 0px 0px;
 
     }
-    .third-parent p{
+
+    .third-parent p {
         font-size: 1.2rem;
         padding: 12px 0px 100px;
     }
 }
-@media (max-width: 375px)
-{
-    .third-parent h3{
-        font-size: 1.2rem;
-    padding: 96px 0px 0px;
 
+@media (max-width: 375px) {
+    .third-parent h3 {
+        font-size: 1.2rem;
+        padding: 96px 0px 0px;
+        text-align: center;
     }
-    .third-parent p{
+
+    .third-parent p {
         font-size: 0.9rem;
         padding: 9.6px 0px 80px;
+        text-align: center;
     }
 }
 
+.card-sec {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 80px 0px 50px;
+    font-size: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-sec h2 {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 3rem;
+}
+
+.text-sec p {
+    font-size: 2rem;
+    text-align: center;
+    width: 50rem;
+}
+
+.text-sec h6 {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding: 3rem;
+}
+
+.redeem-btn {
+    background: linear-gradient(var(--purple, --blue));
+    padding: 1rem;
+    color: var(--white);
+    font-size: 2rem;
+}
+
+@media (max-width: 650px) {
+    .card-sec {
+        font-size: 0.6rem;
+        padding: 36px 0px 20px;
+    }
+    .card-img img{
+        width: 120px;
+        padding: 40px 0px 0px;
+    }
+
+    .text-sec h2 {
+        font-size: 0.9rem;
+        padding: 9.6px;
+    }
+
+    .text-sec p {
+        font-size: 0.6rem;
+        width: 160px;
+    }
+
+    .text-sec h6 {
+        font-size: 0.6rem;
+        padding: 9.6px;
+    }
+
+    .redeem-btn {
+        font-size: 0.6rem;
+        padding: 3.6px;
+    }
+}
+@media (max-width: 375px)
+{
+   .card-sec{
+    font-size: 0.6rem;
+    padding: 25.6px 0px 16px;
+
+   }
+   .card-img img{
+    padding: 32px 0px 0px;
+   } 
+   .text-sec h2{
+    font-size: 0.9rem;
+    padding: 9.6px;
+
+   }
+   .text-sec p{
+    font-size: 0.64rem;
+    width: 160px;
+   }
+   .text-sec h6{
+    font-size: 0.64rem;
+    padding: 9.6px;
+   }
+   .redeem-btn{
+    font-size: 0.64rem;
+    padding: 3.2px;
+   }
+}
