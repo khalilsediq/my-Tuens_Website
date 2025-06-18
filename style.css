@@ -410,6 +410,7 @@ body {
     color: var(--white);
     font-weight: 200;
     margin-bottom: 200px;
+    transition-duration: 0.5s;
 }
 
 .read-btn:hover {
@@ -633,6 +634,11 @@ body {
     padding: 1rem;
     color: var(--white);
     font-size: 2rem;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.redeem-btn:hover{
+    background: linear-gradient(var(--blue, --purple));
 }
 
 @media (max-width: 650px) {
