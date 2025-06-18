@@ -453,4 +453,45 @@ body {
         padding: 4px;
     }
 }
-@media (max-width: )
+@media (max-width: 375px )
+{
+    .parent-text h2{
+        font-size: 2.5rem;
+        padding: 32px 0px 0px;
+    }
+    .parent-text h3{
+        font-size: 0.9rem;
+        padding: 6.4px;
+
+    }
+    .parent-text p{
+        font-size: 0.6rem;
+        padding: 9.6px 9.6px 25.6px;
+    }
+    .trail-btn{
+        font-size: 0.8rem;
+        padding: 4.8px;
+    }
+    .parent-text h6{
+        font-size: 0.6rem;
+        padding: 16px;
+    }
+    .white-box>center>img{
+        padding: 32px 0px 25.6px;
+        width: 192px;
+        bottom: 13rem;
+    }
+    .white-box h3{
+        font-size: 1.2rem;
+        margin: -96px 0px 0px;
+
+    }
+    .white-box p{
+        font-size: 0.9rem;
+        padding: 16px;
+    }
+    .read-btn{
+        font-size: 0.6rem;
+        padding: 3.2px
+    }
+}
