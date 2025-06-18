@@ -406,6 +406,7 @@ body {
      padding: 10px 15px;
      color: var(--white);
      font-weight: 200;
+     margin-bottom: 200px;
 }
 .read-btn:hover{
     transform: scale(1.1);
@@ -413,7 +414,7 @@ body {
     color: var(--white);
 }
 .mac-pic-sec{
-    padding-top: 200px;
+    padding-top: 40px;
 }
 .mac-pic-sec img{
     width: 640px;
@@ -461,9 +462,7 @@ body {
     .mac-pic-sec img{
         padding: 0px 0px 0px;
     }
-    .mac-pic-sec{
-        padding: 150px 0px 0px;
-    }
+    
 }
 @media (max-width: 375px )
 {
@@ -504,6 +503,12 @@ body {
     }
     .read-btn{
         font-size: 0.6rem;
-        padding: 3.2px
+        padding: 3.2px;
+        margin-bottom: 100px;
     }
+    .mac-pic-sec img{
+        width: 192px;
+        padding: 32px 0px 25.6px;
+    }
+    
 }
