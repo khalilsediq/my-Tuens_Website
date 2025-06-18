@@ -412,6 +412,12 @@ body {
     background: linear-gradient(var(--blue, --purple));
     color: var(--white);
 }
+.mac-pic-sec{
+    padding-top: 200px;
+}
+.mac-pic-sec img{
+    width: 640px;
+}
 @media (max-width: 650px)
 {
     .parent-text h2{
@@ -451,6 +457,12 @@ body {
     .read-btn{
         font-size: 0.8rem;
         padding: 4px;
+    }
+    .mac-pic-sec img{
+        padding: 0px 0px 0px;
+    }
+    .mac-pic-sec{
+        padding: 150px 0px 0px;
     }
 }
 @media (max-width: 375px )
