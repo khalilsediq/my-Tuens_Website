@@ -542,7 +542,7 @@ body {
 
 
 .third-last {
-    background-image: url('	https://mytunes-322.web.app/images/video.png');
+    background-image: url('./imgs/video.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--white);
@@ -636,6 +636,7 @@ body {
     font-size: 2rem;
     cursor: pointer;
     transition-duration: 0.5s;
+    border: none;
 }
 .redeem-btn:hover{
     background: linear-gradient(var(--blue, --purple));
