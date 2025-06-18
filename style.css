@@ -474,6 +474,7 @@ body {
     .read-btn {
         font-size: 0.8rem;
         padding: 4px;
+        margin-bottom: 100px;
     }
 
     .mac-pic-sec img {
@@ -530,7 +531,7 @@ body {
     .read-btn {
         font-size: 0.6rem;
         padding: 3.2px;
-        margin-bottom: 200px;
+        margin-bottom: 90px;
     }
 
     .mac-pic-sec img {
@@ -764,4 +765,54 @@ body {
    .end{
     padding: 8px ;
    }
+}
+@media (max-width: 430px)
+{
+    .main-fotter{
+        padding: 32px;
+        font-size: 0.6rem;
+
+    }
+    .child1 h4{
+        padding: 0px 0px 8px;
+        font-size: 1.2rem;
+    }
+    .child1 ul{
+        font-size: 0.6rem;
+        padding: 8px 0px 0px;
+
+    }
+    .child1 li{
+        font-size: 0.8rem;
+    }
+    .end{
+        padding: 8px;
+    }
+    .end p{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 375px    )
+{
+    .main-fotter{
+        padding: 25.6px;
+    }
+    .child1 h4{
+        font-size: 0.96rem;
+        padding: 0px 0px 6.4px;
+    }
+    .child1 ul{
+        font-size: 0.6rem;
+        padding: 6.4px 0px 0px;
+
+    }
+    .child1 li{
+        font-size: 0.64rem;
+    }
+    .end{
+        padding: 6.4px;
+    }
+    .end p{
+        font-size: 0.64rem;
+    }
 }
